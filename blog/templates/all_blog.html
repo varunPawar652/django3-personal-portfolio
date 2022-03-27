@@ -1,0 +1,15 @@
+<h1>
+    Blog's Page
+</h1>
+{% for blog in Blogs %}
+    <h2>
+        {{blog.title }}
+    </h2>
+    <h4>
+        {{blog.date}}
+    </h4>
+    <p>
+        {{blog.description}}
+    </p>
+    
+{% endfor %}
